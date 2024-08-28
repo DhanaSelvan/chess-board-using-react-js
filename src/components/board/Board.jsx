@@ -5,7 +5,9 @@ import whiteRook from '../assets/white-rook.png'
 import Pawn from '../assets/pawn.png'
 import whitePawn from '../assets/white-pawn.png'
 import King from '../assets/king.png'
+import whiteKing from '../assets/white-king.png'
 import Queen from '../assets/queen.png'
+import whiteQueen from '../assets/white-queen.png'
 import Bishop from '../assets/bishop.png'
 import whiteBishop from '../assets/white-bishop.png'
 import Knight from '../assets/knight.png'
@@ -90,8 +92,8 @@ const Board = () => {
             <td className="col col-1 black"><img src={whiteRook} alt="White rook icon" /></td>
             <td className="col col-2"><img src={whiteKnight} alt="white Knight icon" /></td>
             <td className="col col-3 black"><img src={whiteBishop} alt="white Bishop icon" /></td>
-            <td className="col col-4"></td>
-            <td className="col col-5 black"></td>
+            <td className="col col-4"><img src={whiteQueen} alt="white queen icon" /></td>
+            <td className="col col-5 black"><img src={whiteKing} alt="white King icon" /></td>
             <td className="col col-6"><img src={whiteBishop} alt="white Bishop icon" /></td>
             <td className="col col-7 black"><img src={whiteKnight} alt="white Knight icon" /></td>
             <td className="col col-8"><img src={whiteRook} alt="White rook icon" /></td>
